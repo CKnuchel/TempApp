@@ -10,28 +10,28 @@ dependencies:
   flutter:
     sdk: flutter
 
-    # State Management mit BLoC
-    flutter_bloc: ^8.1.6 # BLoC
-    equatable: ^2.0.5 # Vergleich von BLoC-States
-    hydrated_bloc: ^9.1.5 # Persistenz von BLoC-States
-    path_provider: ^2.1.5 # Speicherort für persistente Daten
+  # State Management mit BLoC
+  flutter_bloc: ^8.1.6 # BLoC
+  equatable: ^2.0.5 # Vergleich von BLoC-States
+  hydrated_bloc: ^9.1.5 # Persistenz von BLoC-States
+  path_provider: ^2.1.5 # Speicherort für persistente Daten
 
-    # HTTP-Client für API-Requests
-    http: ^1.2.2
+  # HTTP-Client für API-Requests
+  http: ^1.2.2
 
-    # Websockets für Echtzeitkommunikation
-    web_socket_client: ^0.1.5
+  # Websockets für Echtzeitkommunikation
+  web_socket_client: ^0.1.5
 
-    # JSON-Parsing und Serialisierung
-    json_annotation: ^4.3.0
+  # JSON-Parsing und Serialisierung
+  json_annotation: ^4.3.0
 
-    # Lokale Speicherung von Daten
-    shared_preferences: ^2.3.2
-    sqflite: ^2.4.1
+  # Lokale Speicherung von Daten
+  shared_preferences: ^2.3.2
+  sqflite: ^2.4.1
 
-    # Diagramme
-    syncfusion_flutter_gauges: ^27.1.58 
-    fl_chart: ^0.69.0
+  # Diagramme
+  syncfusion_flutter_gauges: ^27.1.58 
+  fl_chart: ^0.69.0
 
 dev_dependencies:
   flutter_test:
