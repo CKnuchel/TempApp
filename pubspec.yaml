@@ -14,8 +14,7 @@ dependencies:
   flutter_bloc: ^8.1.6 # BLoC
   equatable: ^2.0.5 # Vergleich von BLoC-States
   hydrated_bloc: ^9.1.5 # Persistenz von BLoC-States
-  path_provider: ^2.1.5 # Speicherort für persistente Daten
-
+  path_provider: ^2.1.2 # Speicherort für persistente BLoC-States
   # HTTP-Client für API-Requests
   http: ^1.2.2
 
@@ -33,10 +32,11 @@ dependencies:
   syncfusion_flutter_gauges: ^27.1.58 
   fl_chart: ^0.69.0
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
