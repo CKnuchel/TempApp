@@ -15,6 +15,10 @@ dependencies:
   equatable: ^2.0.5 # Vergleich von BLoC-States
   hydrated_bloc: ^9.1.5 # Persistenz von BLoC-States
   path_provider: ^2.1.2 # Speicherort für persistente BLoC-States
+
+  # Navigation
+  persistent_bottom_nav_bar: ^6.2.1
+
   # HTTP-Client für API-Requests
   http: ^1.2.2
 

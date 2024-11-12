@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:temp_app/src/pages/main_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,12 +10,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Temp Sensor',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: const MainScreen()
     );
   }
 }
